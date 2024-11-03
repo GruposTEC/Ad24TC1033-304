@@ -1,0 +1,17 @@
+{
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"vadimcn.vscode-lldb",
+				"analytic-signal.preview-pdf",
+				"ms-vsliveshare.vsliveshare",
+				"ms-vscode.cpptools",
+				"hediet.vscode-drawio",
+				"grapecity.gc-excelviewer",
+				"webfreak.debug"
+			]
+		}
+	}
+}
+
+
