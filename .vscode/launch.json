@@ -8,7 +8,7 @@
             "name": "Debug",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceRoot}/myapp",
+            "program": "${workspaceRoot}/SEsion2/myapp",
             "args": [],
             "cwd": "${workspaceRoot}"
         }
