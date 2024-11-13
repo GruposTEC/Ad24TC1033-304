@@ -10,6 +10,9 @@ class Dado
         int tirar() ;
         int get_caras();
         void set_caras(int n);
+        Dado(int n);
+        Dado();
+        ~Dado();
 };
 
 

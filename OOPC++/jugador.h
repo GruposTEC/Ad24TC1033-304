@@ -8,7 +8,7 @@ using std::string;
 class Jugador
 {
     private:
-        int posicion;
+        int posicion = 0;
         int color;
         string  nombre;
     public :

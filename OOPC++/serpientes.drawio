@@ -1,11 +1,11 @@
 <mxfile host="65bd71144e">
     <diagram id="-iTTWKFWzG11xJwV4NCn" name="Page-1">
-        <mxGraphModel dx="341" dy="247" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="724" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="2" value="Dado" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-                    <mxGeometry x="345" y="130" width="160" height="120" as="geometry"/>
+                    <mxGeometry x="340" y="54" width="160" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="- num_caras : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2" vertex="1">
                     <mxGeometry y="26" width="160" height="26" as="geometry"/>
@@ -13,20 +13,62 @@
                 <mxCell id="4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="2" vertex="1">
                     <mxGeometry y="52" width="160" height="8" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="+ tirar ( ) : int&#10;+ get_caras( ) : int&#10;+ set_caras(n : int ) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2" vertex="1">
-                    <mxGeometry y="60" width="160" height="60" as="geometry"/>
+                <mxCell id="5" value="+ tirar ( ) : int&#10;+ get_caras( ) : int&#10;+ set_caras(n : int ) : void&#10;+ Dado ( )&#10;+ Dado( n : int)&#10;+ ~Dato )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2" vertex="1">
+                    <mxGeometry y="60" width="160" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="Jugaador" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                <mxCell id="6" value="Jugaador" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
                     <mxGeometry x="590" y="44" width="160" height="170" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="- poisicion : int&#10;- nombre : string&#10;- color : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6">
+                <mxCell id="7" value="- poisicion : int&#10;- nombre : string&#10;- color : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6" vertex="1">
                     <mxGeometry y="26" width="160" height="54" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="6">
+                <mxCell id="8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="6" vertex="1">
                     <mxGeometry y="80" width="160" height="8" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="- mover (n : int) ; void&#10;+ get_posicion() :int&#10;+ set_posicion( n: int) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6">
+                <mxCell id="9" value="- mover (n : int) ; void&#10;+ get_posicion() :int&#10;+ set_posicion( n: int) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6" vertex="1">
                     <mxGeometry y="88" width="160" height="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Casilla" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="580" y="340" width="160" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=0.702;entryY=-0.023;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="10">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-10" y="100" as="sourcePoint"/>
+                        <mxPoint x="-80.00000000000006" y="98.42599999999999" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="-  posicion : int&#10;+ desplazamiento : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="10">
+                    <mxGeometry y="26" width="160" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="10">
+                    <mxGeometry y="60" width="160" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="+ Casilla ()&#10;+ Casilla(p : int, d: int)&#10;+ get_posicion ( ) : int&#10;+ toString() : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="10">
+                    <mxGeometry y="68" width="160" height="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Juego" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="340" width="160" height="208" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="-  casillas : vector &lt;Casilla&gt;&#10;- num_casillas : int&#10;- dado : Dado;&#10;- j1 : Jugador&#10;- j2 : Jugador" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="14">
+                    <mxGeometry y="26" width="160" height="94" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="14">
+                    <mxGeometry y="120" width="160" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="+ Juego () &#10;+ Juego (n : int)&#10;- creacion_tablero() : void&#10;+ impresion_tablero() : void&#10;+ jugar ( ) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="14">
+                    <mxGeometry y="128" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=0.427;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.423;exitY=1.076;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5" target="14">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="560" y="290" as="sourcePoint"/>
+                        <mxPoint x="720" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=0.702;entryY=-0.023;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.29;exitY=1.034;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9" target="14">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="490.00000000000006" y="224.10000000000002" as="sourcePoint"/>
+                        <mxPoint x="490.63999999999993" y="340.004" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>

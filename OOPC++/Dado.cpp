@@ -20,3 +20,18 @@ int Dado::get_caras()
 {
     return num_caras;
 }
+
+Dado::Dado(int n)
+{
+    num_caras = n ;
+}
+
+Dado::Dado()
+{
+
+}
+
+Dado::~Dado()
+{
+    cout << "Destructor del dado" << endl;
+}
