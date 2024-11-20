@@ -22,3 +22,8 @@ string  Casilla::toString()
 {
     return "Casilla número " + to_string(posicion) + " con desplazamiento "+ to_string(desplazamiento);
 }
+
+void Casilla::set_desplazamiento(int d)
+{
+    desplazamiento = d;
+}

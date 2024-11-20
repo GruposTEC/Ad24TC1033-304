@@ -15,6 +15,7 @@ class Casilla
         Casilla(int p, int d);
         int get_posicion();
         string toString();
+        void set_desplazamiento(int d);
 };
 
 
